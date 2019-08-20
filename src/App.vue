@@ -34,6 +34,9 @@ main {
   margin-top: 80px;
 }
 
+.container {
+  min-height: 85vh;
+}
 /* Css Loading */
 .loading {
   display: flex;
