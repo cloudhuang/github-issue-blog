@@ -1,29 +1,18 @@
-# github-issues-blog
+Github issues blog
+==============================================
 
-## Project setup
-```
-npm install
-```
+使用Github Issue API接口的简单的博客应用。
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 如何使用
+1. 修改 `index.html`页面的 **title**
+2. 配置`config.js`中的`title`，`username`和`repository`项。
 
-### Compiles and minifies for production
-```
-npm run build
-```
+_参数说明:_
 
-### Run your tests
-```
-npm run test
-```
+- title: 博客名称
+- username: Github的用户名
+- repository: 作为博客的仓库名称，所有的博客都位于该仓库的"Issue"中
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+3. 打包
+`npm run build`
+后将dist目录中的所有文件push到仓库中。
